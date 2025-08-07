@@ -153,11 +153,11 @@ function showResultBox() {
 
   // Add feedback based on performance
   let feedback = "";
-  if (percentage >= 80) {
+  if (percentage >= 90) {
     feedback = "🏆 Outstanding! You're a true WebDev Wizard! 🏆";
   } else if (percentage >= 60) {
     feedback = "🎉 Excellent job! Keep it up! 🎉";
-  } else if (percentage >= 30) {
+  } else if (percentage >= 40) {
     feedback = "Not bad, keep practicing! 👍";
   } else {
     feedback = "📘 Don't worry, you'll improve with more practice!";
@@ -191,3 +191,4 @@ function getFiveRandomQuestions() {
     numb: index + 1
   }));
 }
+
